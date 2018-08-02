@@ -14,6 +14,7 @@
 		27FC074A211224AB0024C9C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27FC0748211224AB0024C9C4 /* LaunchScreen.storyboard */; };
 		27FC0755211224AB0024C9C4 /* KyleEthanCardGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FC0754211224AB0024C9C4 /* KyleEthanCardGameTests.swift */; };
 		27FC0760211224AB0024C9C4 /* KyleEthanCardGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FC075F211224AB0024C9C4 /* KyleEthanCardGameUITests.swift */; };
+		AAB92EAE2113A97900B03AE5 /* MPCManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB92EAD2113A97900B03AE5 /* MPCManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		27FC075B211224AB0024C9C4 /* KyleEthanCardGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KyleEthanCardGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		27FC075F211224AB0024C9C4 /* KyleEthanCardGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KyleEthanCardGameUITests.swift; sourceTree = "<group>"; };
 		27FC0761211224AB0024C9C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAB92EAD2113A97900B03AE5 /* MPCManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPCManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				27FC073F211224A90024C9C4 /* AppDelegate.swift */,
 				27FC0741211224A90024C9C4 /* ViewController.swift */,
+				AAB92EAD2113A97900B03AE5 /* MPCManager.swift */,
 				27FC0743211224A90024C9C4 /* Main.storyboard */,
 				27FC0746211224AB0024C9C4 /* Assets.xcassets */,
 				27FC0748211224AB0024C9C4 /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			files = (
 				27FC0742211224A90024C9C4 /* ViewController.swift in Sources */,
 				27FC0740211224A90024C9C4 /* AppDelegate.swift in Sources */,
+				AAB92EAE2113A97900B03AE5 /* MPCManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,6 +435,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = KyleEthanCardGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -448,6 +453,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = KyleEthanCardGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
