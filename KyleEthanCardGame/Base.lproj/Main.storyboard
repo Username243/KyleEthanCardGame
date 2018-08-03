@@ -51,9 +51,6 @@
                             <outlet property="delegate" destination="ozq-K8-9sC" id="1uV-NE-J9G"/>
                         </connections>
                     </collectionView>
-                    <connections>
-                        <outletCollection property="cellCollection" destination="g6P-1B-mnt" collectionClass="NSMutableArray" id="1M7-H8-aU7"/>
-                    </connections>
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1HC-eG-5Se" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
